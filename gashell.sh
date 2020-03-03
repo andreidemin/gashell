@@ -6,12 +6,12 @@
 
 #Path Vars
 REQBINS=("sed" "oathtool" "openssl" "zbarimg" "curl");
-CONFIGDIR="/home/$USER/.config/gashell";
+CONFIGDIR="/data/data/com.termux/files/home/.config/gashell";
 SALTFILE="$CONFIGDIR/salt";
 SALTLENGTH=1024;
 CODESFILE="$CONFIGDIR/secrets"
-QRWEBOUTPUT="/tmp/gashellqr.file";
-ERROROUTFILE="/tmp/gashellerr.txt";
+QRWEBOUTPUT="/data/data/com.termux/files/home/gashell/tmp/gashellqr.file";
+ERROROUTFILE="/data/data/com.termux/files/home/gashell/tmp/gashellerr.txt";
 
 #Help Vars
 HELPTEXT="
